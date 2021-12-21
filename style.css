@@ -6,7 +6,7 @@ a:link {
 
 /* INDEX - Education */
 div.education-custom-card-header {
-    background: #AF7AC5; // Dark-green
+    background: #106d17; // Dark-green
 }
 
 span.education-custom-card-header {
@@ -19,13 +19,13 @@ span.education-custom-card-sub-header {
 }
 
 div.education-custom-card-body {
-    background: #EBDEF0; // Light-green
+    background: #7ede85; // Light-green
 }
 /******************************************************************************/
 
 /* INDEX Work experiences */
 div.workexperiences-custom-card-header {
-    background: #5499C7; // Dark-blue
+    background: #1f0db9; // Dark-blue
 }
 
 span.workexperiences-custom-card-header {
@@ -38,7 +38,7 @@ span.workexperiences-custom-card-sub-header {
 }
 
 div.workexperiences-custom-card-body {
-    background: #D4E6F1; // Light-blue
+    background: #2c73bf; // Light-blue
 }
 /******************************************************************************/
 
