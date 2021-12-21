@@ -6,7 +6,7 @@ a:link {
 
 /* INDEX - Education */
 div.education-custom-card-header {
-    background: #AF7AC5; // Dark-purple
+    background: #AF7AC5; // Dark-green
 }
 
 span.education-custom-card-header {
@@ -19,7 +19,7 @@ span.education-custom-card-sub-header {
 }
 
 div.education-custom-card-body {
-    background: #EBDEF0; // Light-purple
+    background: #EBDEF0; // Light-green
 }
 /******************************************************************************/
 
@@ -49,4 +49,13 @@ span.publications-number {
 span.publications-author {}
 span.publications-title {}
 span.publications.conference {}
+/******************************************************************************/
+
+/* PROJECTS */
+span.projects-number {
+    font-size: 19px;
+}
+span.projects-author {}
+span.projects-title {}
+span.projects.conference {}
 /******************************************************************************/
