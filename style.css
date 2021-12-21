@@ -25,7 +25,7 @@ div.education-custom-card-body {
 
 /* INDEX Work experiences */
 div.workexperiences-custom-card-header {
-    background: #1f0db9; // Dark-blue
+    background: #2c73bf; // Dark-blue
 }
 
 span.workexperiences-custom-card-header {
@@ -38,7 +38,7 @@ span.workexperiences-custom-card-sub-header {
 }
 
 div.workexperiences-custom-card-body {
-    background: #2c73bf; // Light-blue
+    background: #94bfee; // Light-blue
 }
 /******************************************************************************/
 
