@@ -16,28 +16,29 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <title>Alessio Medaglini</title>
+    <title>Alessio Medaglini - Projects</title>
   </head>
   <body>
-
     <div class='container shadow-lg'>
       <!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link active" href="./index.html"> Home </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./projects.html"> Projects </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./publications.html"> Publications </a>
-            </li>
-          </ul>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html"> Home </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link active" href="./projects.html"> Projects </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./publications.html"> Publications </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
       <!-- END Navbar -->
@@ -50,116 +51,127 @@
             <div class="card">
               <div class="card-body">
                 <!-- General info -->
-                <div> <img src="img/Photo.jpg" class="rounded-circle mx-auto d-block img-fluid"> </div>
-                  <div class="container mx-auto m-4">
-                    <h3> Alessio Medaglini </h3>
-                    PhD student </br>
-                    <span> University of Siena </span>
-                  </div>
+                <div> <img src="img/Photo.jpg" class="rounded border mx-auto d-block img-fluid"> </div>
+                <div class="container mx-auto m-4">
+                  <h3> Alessio Medaglini </h3>
+                  <span> PhD student </span> </br>
+                  <span> University of Siena </span>
+                </div>
 
-                  <!-- Contact -->
-                  <div class="container mx-auto mt-4">
-                    <h4> Contacts </h4>
-                    alessio.medaglini2@unisi.it
-                  </div>
+                <!-- Contact -->
+                <div class="container mx-auto mt-4">
+                  <h4> Contacts </h4>
+                  <h6>Office</h6>
+                  <p>Dipartimento di Ingegneria dell’Informazione e Scienze Matematiche</br>
+                     Palazzo S.Niccolo, Room 223</br>
+                     Via Roma 56, Siena, Italy</p>
+                  <h6>Email</h6> 
+                  <p><a href="mailto:alessio.medaglini2@unisi.it">alessio.medaglini2@unisi.it</a></br>
+                     <a href="mailto:medaglini@diism.unisi.it">medaglini@diism.unisi.it</a></p>
+                </div>
 
-                  <!-- Social -->
-                  <div class="container mx-auto mt-4">
-                    <h4> Social </h4>
-                    <a href="https://www.linkedin.com/in/alessio-medaglini-36b990197/"> <img src="img/logo/linkedin.svg" width="30" height="30" class="img-fluid"/> </a>
-                  </div>
+                <!-- Social -->
+                <div class="container mx-auto mt-4">
+                  <h4> Social </h4>
+                  <a href="https://www.linkedin.com/in/alessio-medaglini-36b990197/"> <img src="img/logo/linkedin.svg" width="30" height="30" class="img-fluid"/> </a>
+                  <a href="https://github.com/Meda676"> <img src="img/logo/github.svg" width="30" height="30" class="img-fluid"/> </a>
+                  <a href="https://twitter.com/alethemeda"> <img src="img/logo/twitter.svg" width="30" height="30" class="img-fluid"/> </a>
+                  <a href="https://www.instagram.com/alessio_meda/"> <img src="img/logo/instagram.svg" width="30" height="30" class="img-fluid"/> </a>
+                  <a href="https://t.me/AleMeda/"> <img src="img/logo/telegram.svg" width="30" height="30" class="img-fluid"/> </a>
                 </div>
               </div>
             </div>
+          </div>
           <!-- End LEFT SIDE -->
-
 
           <!-- RIGHT SIDE -->
           <div class="col-lg-8">
 
-            <!-- Projects header  -->
-            <div class="container">
-              <h2> Projects </h2>
-
-              <!-- Projects content -->
-
+            <!-- Projects -->
+            <div class="container-fluid">
+              <h3 class="pb-2 border-bottom">Projects</h3>
+              
               <!-- Item -->
-              <div class="fluid-container mt-4">
-                <span class="projects-number"> [1] </span>
-                <span class="projects-title">
-                  Visual Odometry tecniques for autonomous flight of drones (Masters Thesis)
-                </span> ,
-                <span class="projects-description">
-                I developed a flight control system capable of keeping track of the entire trajectory travelled by a drone, with
-		a reduced dependency on the availability of GPS signal. This project is based on a monocular visual odometry
-		technique and it is aimed to overcome some limitations related to the use of GPS signals. The flight control
-		algorithm was initially integrated within an offline procedure, in which the information collected during the
-		flight are batch-processed at a later time, and then this procedure was transformed into a real-time version of it
-		through the use of remote processing. In addition, a custom application was developed to make it possible the
-		communication between the remote controller of the UAV and the board which performs the remote processing.
-		The final purpose of this project is to perform the entire computation on board to the drone itself using an external
-		board as a payload, which communicates directly with the drone, in order to make it completely autonomous.
-                </span>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                  <img src="img/logo/arrow-right-circle-fill.svg" width="25" height="25" class="img-fluid"/>
+                </div>
+                <div>
+                  <h5>Visual Odometry tecniques for autonomous flight of drones (Masters Thesis)</h5>
+                  <p>
+                    I developed a flight control system capable of keeping track of the entire trajectory travelled by a drone, with
+                    a reduced dependency on the availability of GPS signal. This project is based on a monocular visual odometry
+                    technique and it is aimed to overcome some limitations related to the use of GPS signals. </br> 
+                    The flight control algorithm was initially integrated within an offline procedure, in which the information collected during the
+                    flight are batch-processed at a later time, and then this procedure was transformed into a real-time version of it
+                    through the use of remote processing. In addition, a custom application was developed to make it possible the
+                    communication between the remote controller of the UAV and the board which performs the remote processing. </br>
+                    The final purpose of this project is to perform the entire computation on board to the drone itself using an external
+                    board as a payload, which communicates directly with the drone, in order to make it completely autonomous. </br>
+                  </p>
+                </div>
               </div>
-	      <div class="fluid-container mt-4">
-                <span class="projects-number"> [2] </span>
-                <span class="projects-title">
-                 Software per l’ausilio all’interpretazione dei dati telemetrici di una moto da corsa (Bachelor Thesis)
-                </span> ,
-                <span class="projects-description">
-                I developed a C++ software whit the aim of analyzing the telemetry data recorded by a racing motorbike. This
-		software reads the data recorded by the IMU platform, and by all the possible sensors on the motorbike, and
-		analyze them by applying some techniques designed to find interesting points during the ride. I used this software
-		working as a telemetry operator for the Vieri Racing Team during a season of the CIV (Campionato Italiano
-		Velocità) with pretty good results.
-                </span>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                  <img src="img/logo/arrow-right-circle-fill.svg" width="25" height="25" class="img-fluid"/>
+                </div>
+                <div>
+                  <h5>Software per l’ausilio all’interpretazione dei dati telemetrici di una moto da corsa (Bachelor Thesis)</h5>
+                  <p>
+                    I developed a C++ software whit the aim of analyzing the telemetry data recorded by a racing motorbike. This
+                    software reads the data recorded by the IMU platform, and by all the possible sensors on the motorbike, and
+                    analyze them by applying some techniques designed to find interesting points during the ride. </br>
+                    I used this software working as a telemetry operator for the Vieri Racing Team during a season of the 
+                    Italian Speed Championship (CIV) with pretty good results.
+                  </p>
+                </div>
               </div>
-	      <div class="fluid-container mt-4">
-                <span class="projects-number"> [3] </span>
-                <span class="projects-title">
-                 Rubik’s Net - A Neural Network able to solve the Rubik’s Cube (Master Degree Project)
-                </span> ,
-                <span class="projects-description">
-                The objective of this project was to create a neural network able to solve, moves by moves, a Rubik’s Cube. To
-		do this I created different configurations of a multilayer perceptron neural network using Python as a language
-		with Tensorflow and Keras as libraries. The final result was a neural network able to solve the Rubik’s Cube with
-		good performance, if the cube is not too far from the solution, without using nothing about mathematical or
-		heuristic rule, just approaching it like a human.
-                </span>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                  <img src="img/logo/arrow-right-circle-fill.svg" width="25" height="25" class="img-fluid"/>
+                </div>
+                <div>
+                  <h5>Rubik’s Net - A Neural Network able to solve the Rubik’s Cube (Master Degree Project)</h5>
+                  <p>
+                    The objective of this project was to create a neural network able to solve, moves by moves, a Rubik’s Cube. To
+                    do this I created different configurations of a multilayer perceptron neural network using Python as a language
+                    with Tensorflow and Keras as libraries. The final result was a neural network able to solve the Rubik’s Cube with
+                    good performance, if the cube is not too far from the solution, without using nothing about mathematical or
+                    heuristic rule, just approaching it like a human.
+                  </p>
+                </div>
               </div>
-	      <div class="fluid-container mt-4">
-                <span class="projects-number"> [4] </span>
-                <span class="projects-title">
-                Recommendation Systems for Movies (Master Degree Project)
-                </span> ,
-                <span class="projects-description">
-                The objective of this project was to create a recommendation systems based on different kind of Big Data analyzing
-		technologies. For the development of this project I worked in a team with my colleague Simone Marullo and we
-		used Apache Spark as a framework and Python as a language. We have created three different recommendation
-		systems based on the ALS (Alternating Least Square) techniques, the NNR (Nearest Neighbor Recommender)
-		approach and a content-based recommender. At the end we developed also an hybrid version that combines all
-		the others versions.
-                </span>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                  <img src="img/logo/arrow-right-circle-fill.svg" width="25" height="25" class="img-fluid"/>
+                </div>
+                <div>
+                  <h5>Recommendation Systems for Movies (Master Degree Project)</h5>
+                  <p>
+                    The objective of this project was to create a recommendation systems based on different kind of Big Data analyzing
+                    technologies. For the development of this project I worked in a team with my colleague Simone Marullo and we
+                    used Apache Spark as a framework and Python as a language. We have created three different recommendation
+                    systems based on the ALS (Alternating Least Square) techniques, the NNR (Nearest Neighbor Recommender)
+                    approach and a content-based recommender. At the end we developed also an hybrid version that combines all
+                    the others versions.
+                  </p>
+                </div>
               </div>
               <!-- END item -->
-
-
-              <!-- END Projects content -->
-
             </div>
-            <!-- END Projects header -->
-
-
+            <!-- END Projects -->
           </div>
             <!-- END RIGHT SIDE -->
-
           </div>
+          <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="align-items-center">
+                <span class="text-muted">Copyright © 2021 <a href="./index.html">Alessio Medaglini</a>. All Rights Reserved.</span>
+              </div>
+            </footer>
+         </div>
         </div>
       </div>
     </div>
-
-    <!-- JS: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
   </body>
 </html>
