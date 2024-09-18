@@ -32,7 +32,7 @@
                 <a class="nav-link" href="./index.html"> Home </a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link active" href="./projects.html"> Projects </a>
+                <a class="nav-link active" href="./projects.html"> Experience </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./publications.html"> Publications </a>
@@ -57,7 +57,7 @@
                 <div> <img src="img/Photo.jpg" class="rounded border mx-auto d-block img-fluid"> </div>
                 <div class="container mx-auto m-4">
                   <h3> Alessio Medaglini </h3>
-                  <span> PhD student </span> </br>
+                  <span> Software Engineer and Researcher </span> </br>
                   <span> University of Siena </span>
                 </div>
 
@@ -95,71 +95,44 @@
               <h3 class="pb-2 border-bottom">Projects</h3>
               
               <!-- Item -->
-              <div class="col d-flex align-items-start">
-                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                  <img src="img/logo/arrow-right-circle.svg" width="25" height="25" class="img-fluid"/>
-                </div>
-                <div>
-                  <h5>Visual Odometry tecniques for autonomous flight of drones (Masters Thesis)</h5>
-                  <p>
-                    I developed a flight control system capable of keeping track of the entire trajectory travelled by a drone, with
-                    a reduced dependency on the availability of GPS signal. This project is based on a monocular visual odometry
-                    technique and it is aimed to overcome some limitations related to the use of GPS signals. </br> 
-                    The flight control algorithm was initially integrated within an offline procedure, in which the information collected during the
-                    flight are batch-processed at a later time, and then this procedure was transformed into a real-time version of it
-                    through the use of remote processing. In addition, a custom application was developed to make it possible the
-                    communication between the remote controller of the UAV and the board which performs the remote processing. </br>
-                    The final purpose of this project is to perform the entire computation on board to the drone itself using an external
-                    board as a payload, which communicates directly with the drone, in order to make it completely autonomous. </br>
-                  </p>
-                </div>
-              </div>
-              <div class="col d-flex align-items-start">
-                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                  <img src="img/logo/arrow-right-circle.svg" width="25" height="25" class="img-fluid"/>
-                </div>
-                <div>
-                  <h5>Software per l’ausilio all’interpretazione dei dati telemetrici di una moto da corsa (Bachelor Thesis)</h5>
-                  <p>
-                    I developed a C++ software whit the aim of analyzing the telemetry data recorded by a racing motorbike. This
-                    software reads the data recorded by the IMU platform, and by all the possible sensors on the motorbike, and
-                    analyze them by applying some techniques designed to find interesting points during the ride. </br>
-                    I used this software working as a telemetry operator for the Vieri Racing Team during a season of the 
-                    Italian Speed Championship (CIV) with pretty good results.
-                  </p>
-                </div>
-              </div>
-              <div class="col d-flex align-items-start">
-                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                  <img src="img/logo/arrow-right-circle.svg" width="25" height="25" class="img-fluid"/>
-                </div>
-                <div>
-                  <h5>Rubik’s Net - A Neural Network able to solve the Rubik’s Cube (Master Degree Project)</h5>
-                  <p>
-                    The objective of this project was to create a neural network able to solve, moves by moves, a Rubik’s Cube. To
-                    do this I created different configurations of a multilayer perceptron neural network using Python as a language
-                    with Tensorflow and Keras as libraries. The final result was a neural network able to solve the Rubik’s Cube with
-                    good performance, if the cube is not too far from the solution, without using nothing about mathematical or
-                    heuristic rule, just approaching it like a human.
-                  </p>
+               <!-- Work experience -->  
+            <div class="container px-4 py-5" id="hanging-icons">
+              <h3 class="pb-2 border-bottom">Work Experience</h3>
+              <div class="row g-4 py-5 row-cols-1 row-cols-lg-1">
+                <div class="col d-flex align-items-start">
+                  <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                    <img src="img/logo/software.svg" width="30" height="30" class="img-fluid"/>
+                  </div>
+			<div>
+			    <h4>Software Engineer</h4>
+			    <h6>2020 - 2024 </h6>
+			    <h6>Thales GTS Italy </h6>
+			    <p>Collaboration as an external developer with the Thales GTS Italy industry through a research grant at the
+				University of Siena renewed several times. The topic of this work is the development of reliable and time-critical
+				software algorithms in high performance computing platforms for Thales’s tram Obstacle Detection and Avoidance
+				system applied to the urban railway in Florence.
+			  </div>
+			</div>
+		</div>
+		<div class="row g-4 py-5 row-cols-1 row-cols-lg-1">
+		<div class="col d-flex align-items-start">
+		<div class="icon-square bg-light text-dark flex-shrink-0 me-3">
+                    <img src="img/logo/speedometer.svg" width="30" height="30" class="img-fluid"/>
+                  </div>
+			  <div>
+			    <h4>Data Analyst</h4>
+			    <h6>2018 - present </h6>
+			    <h6>Italian Speed Championship (CIV) </h6>
+			    <p>Experience as data analyst for the Vieri Racing team during race weekends in the Italian motorcycle racing
+				championship (CIV). My job is about managing the sensor wiring system and analyzing the telemetry data
+				of a racing bike with the aim of providing the rider and the team with significant information to improve the
+				performance. I manage with the team the setup of the motorbike in terms of suspension adjustments and different
+				ECU maps for engine management.</p>
+			  </div>
                 </div>
               </div>
-              <div class="col d-flex align-items-start">
-                <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
-                  <img src="img/logo/arrow-right-circle.svg" width="25" height="25" class="img-fluid"/>
-                </div>
-                <div>
-                  <h5>Recommendation Systems for Movies (Master Degree Project)</h5>
-                  <p>
-                    The objective of this project was to create a recommendation systems based on different kind of Big Data analyzing
-                    technologies. For the development of this project I worked in a team with my colleague Simone Marullo and we
-                    used Apache Spark as a framework and Python as a language. We have created three different recommendation
-                    systems based on the ALS (Alternating Least Square) techniques, the NNR (Nearest Neighbor Recommender)
-                    approach and a content-based recommender. At the end we developed also an hybrid version that combines all
-                    the others versions.
-                  </p>
-                </div>
-              </div>
+            </div>
+            <!-- Work experiences -->
               <!-- END item -->
             </div>
             <!-- END Projects -->
